@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>MainApp</Name>
+    <Assembly>DialogBlocker/DialogBlocker.dll</Assembly>
+    <ClientId>97b1ff45-1d82-4878-bc00-8b1b4b38fd86</ClientId>
+    <FullClassName>DialogBlocker.App.MainApp</FullClassName>
+    <VendorId>EREN</VendorId>
+    <VendorDescription>https://github.com/EliRenzer/DialogBlocker-For-Autodesk-Revit</VendorDescription>
+  </AddIn>
+</RevitAddIns>
