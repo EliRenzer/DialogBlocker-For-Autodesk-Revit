@@ -17,7 +17,7 @@ module hello =
     let DialogHandler = fun (e:DialogBoxShowingEventArgs) ->
         
         let te = e :?> TaskDialogShowingEventArgs        
-        let now = DateTime.Now.ToString("dd/mm/yyyy hh:mm:ss")
+        let now = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss")
         let logmess mess = log (sprintf "%s; %s; %s; %s; %s; \n\r" mess now te.DialogId te.Message (e.GetType().FullName))
 
         let IsBlocked (mess:string) = 
